@@ -12,7 +12,7 @@ protocol ListDelegate {
   func sendData(list: String)
 }
 
-class AddVC: UIViewController {
+class AddListVC: UIViewController {
   
   var delegate: ListDelegate?
   

@@ -11,8 +11,8 @@
 		D0FAE11120373F8D0036E992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FAE10F20373F8D0036E992 /* Main.storyboard */; };
 		D0FAE11320373F8D0036E992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FAE11220373F8D0036E992 /* Assets.xcassets */; };
 		D0FAE11620373F8E0036E992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FAE11420373F8D0036E992 /* LaunchScreen.storyboard */; };
-		D0FAE11E20373FD10036E992 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FAE11D20373FD10036E992 /* MainTableViewController.swift */; };
-		D0FAE120203741050036E992 /* AddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FAE11F203741050036E992 /* AddVC.swift */; };
+		D0FAE11E20373FD10036E992 /* MainTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FAE11D20373FD10036E992 /* MainTableVC.swift */; };
+		D0FAE120203741050036E992 /* AddListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FAE11F203741050036E992 /* AddListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		D0FAE11220373F8D0036E992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0FAE11520373F8D0036E992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0FAE11720373F8E0036E992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0FAE11D20373FD10036E992 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		D0FAE11F203741050036E992 /* AddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVC.swift; sourceTree = "<group>"; };
+		D0FAE11D20373FD10036E992 /* MainTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableVC.swift; sourceTree = "<group>"; };
+		D0FAE11F203741050036E992 /* AddListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +37,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0507A71203C96E4007E0BDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0FAE11F203741050036E992 /* AddListVC.swift */,
+				D0FAE11D20373FD10036E992 /* MainTableVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0507A72203C9752007E0BDE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D0FAE11420373F8D0036E992 /* LaunchScreen.storyboard */,
+				D0FAE11720373F8E0036E992 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		D0FAE0FF20373F8D0036E992 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +76,9 @@
 			children = (
 				D0FAE10B20373F8D0036E992 /* AppDelegate.swift */,
 				D0FAE10F20373F8D0036E992 /* Main.storyboard */,
-				D0FAE11F203741050036E992 /* AddVC.swift */,
 				D0FAE11220373F8D0036E992 /* Assets.xcassets */,
-				D0FAE11420373F8D0036E992 /* LaunchScreen.storyboard */,
-				D0FAE11720373F8E0036E992 /* Info.plist */,
-				D0FAE11D20373FD10036E992 /* MainTableViewController.swift */,
+				D0507A72203C9752007E0BDE /* SupportingFiles */,
+				D0507A71203C96E4007E0BDE /* Controller */,
 			);
 			path = EasyTodo;
 			sourceTree = "<group>";
@@ -139,8 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FAE120203741050036E992 /* AddVC.swift in Sources */,
-				D0FAE11E20373FD10036E992 /* MainTableViewController.swift in Sources */,
+				D0FAE120203741050036E992 /* AddListVC.swift in Sources */,
+				D0FAE11E20373FD10036E992 /* MainTableVC.swift in Sources */,
 				D0FAE10C20373F8D0036E992 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainTableViewController: UITableViewController, ListDelegate {
+class MainTableVC: UITableViewController, ListDelegate {
   
   var lists: [String] = []
   
@@ -24,13 +24,13 @@ class MainTableViewController: UITableViewController, ListDelegate {
   }
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if let destination = segue.destination as? AddVC {
+    if let destination = segue.destination as? AddListVC {
       destination.delegate = self
     }
   }
 }
 
-extension MainTableViewController {
+extension MainTableVC {
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return lists.count
   }

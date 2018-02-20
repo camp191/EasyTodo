@@ -13,7 +13,7 @@
         <!--EasyTodo-->
         <scene sceneID="NYk-K0-SLY">
             <objects>
-                <tableViewController id="BA8-cH-aW8" customClass="MainTableViewController" customModule="EasyTodo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="BA8-cH-aW8" customClass="MainTableVC" customModule="EasyTodo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="K6l-O1-Xd2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="152.80000000000001" y="111.99400299850076"/>
         </scene>
-        <!--AddVC-->
+        <!--Add ListVC-->
         <scene sceneID="HXh-mK-bge">
             <objects>
-                <viewController id="mKc-Ej-fZE" customClass="AddVC" customModule="EasyTodo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mKc-Ej-fZE" customClass="AddListVC" customModule="EasyTodo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c49-Xv-yW1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
