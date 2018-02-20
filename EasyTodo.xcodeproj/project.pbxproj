@@ -46,15 +46,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D0507A72203C9752007E0BDE /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				D0FAE11420373F8D0036E992 /* LaunchScreen.storyboard */,
-				D0FAE11720373F8E0036E992 /* Info.plist */,
-			);
-			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
 		D0FAE0FF20373F8D0036E992 = {
 			isa = PBXGroup;
 			children = (
@@ -75,9 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				D0FAE10B20373F8D0036E992 /* AppDelegate.swift */,
+				D0FAE11420373F8D0036E992 /* LaunchScreen.storyboard */,
+				D0FAE11720373F8E0036E992 /* Info.plist */,
 				D0FAE10F20373F8D0036E992 /* Main.storyboard */,
 				D0FAE11220373F8D0036E992 /* Assets.xcassets */,
-				D0507A72203C9752007E0BDE /* SupportingFiles */,
 				D0507A71203C96E4007E0BDE /* Controller */,
 			);
 			path = EasyTodo;
